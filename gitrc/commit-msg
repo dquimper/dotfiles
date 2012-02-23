@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+file = ARGV.first
+branch = `git symbolic-ref HEAD`
+m = /^[^0-9]*([0-9]+)/.match(branch)
+if m
+  case_no = m[1]
+  puts "case#{case_no}"
+  commit_message = open(file, 'r').readlines.join("").strip
+  open(file, 'w') { |f| f.puts "(jesta#{case_no}) #{commit_message}" }
+end
