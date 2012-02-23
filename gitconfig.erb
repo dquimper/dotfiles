@@ -1,8 +1,8 @@
 [core]
   excludesfile = /Users/dq/.gitrc/gitignore
 [user]
-  name = Daniel Quimper
-  email = dquimper@gmail.com
+  name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
+  email = <%= print("Your Email: "); STDOUT.flush; STDIN.gets.chomp %>
 [color]  # Ensure we get color
   diff   = auto
   branch = auto
