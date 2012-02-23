@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "/Users/jesta/rubymine/personal/gitutils/gitutils.rb"
+
+cur_branch = GitUtils.current_branch()
+branches = GitUtils.git_tracked_branches()
+branches.each do |b|
+  print "#{b} "
+  GitUtils.change_branch(b)
+  GitUtils.pull()
+end
+GitUtils.change_branch(cur_branch)
