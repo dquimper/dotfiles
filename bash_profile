@@ -12,6 +12,9 @@ alias textedit='open -e'
 alias t='open -e'
 alias r=ruby
 
+export PWS="$HOME/.pws/pws"
+alias pw='pws'
+
 #PATH=~/bin:$PATH:/usr/local/mysql/bin:~/rubymine/personal/gitutils:/Applications/Xcode.app/Contents/Developer/usr/bin
 #PATH=~/.bin:$PATH:/usr/local/mysql/bin:~/rubymine/personal/gitutils
 PATH=~/.bin:$PATH:/usr/local/mysql/bin
