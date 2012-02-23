@@ -13,6 +13,9 @@ alias t='open -e'
 alias r=ruby
 
 export PWS="$HOME/.pws/pws"
+export PWS_SECOND=5
+export PWS_GEN_LENGTH=15
+export PWS_GEN_CHARPOOL="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 alias pw='pws'
 
 #PATH=~/bin:$PATH:/usr/local/mysql/bin:~/rubymine/personal/gitutils:/Applications/Xcode.app/Contents/Developer/usr/bin
