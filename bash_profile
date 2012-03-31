@@ -13,7 +13,7 @@ alias t='open -e'
 alias r=ruby
 
 export PWS="$HOME/.pws/pws"
-export PWS_SECOND=5
+export PWS_SECOND=30
 export PWS_GEN_LENGTH=15
 export PWS_GEN_CHARPOOL="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 alias pw='pws'
