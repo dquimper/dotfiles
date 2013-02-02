@@ -1,0 +1,1 @@
+kill -9 `ps auwx | grep post | grep -v grep | sort | cut -d" " -f 14`
