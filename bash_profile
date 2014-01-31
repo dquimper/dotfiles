@@ -1,3 +1,4 @@
+source ~/.gitrc/git-prompt.sh
 source ~/.gitrc/git-completion.bash
 source ~/.gitrc/git-flow-completion.bash
 PS1='\u@\h [\w]$(__git_ps1 " (%s)")\$ '
@@ -17,10 +18,13 @@ export PWS_SECOND=30
 export PWS_GEN_LENGTH=15
 export PWS_GEN_CHARPOOL="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
+export SKIP_RAILS_ADMIN_INITIALIZER=false
+
 #PATH=~/bin:$PATH:/usr/local/mysql/bin:~/rubymine/personal/gitutils:/Applications/Xcode.app/Contents/Developer/usr/bin
 #PATH=~/.bin:$PATH:/usr/local/mysql/bin:~/rubymine/personal/gitutils
 PATH=~/.bin:$PATH:/usr/local/mysql/bin
 PATH=/usr/local/Cellar/postgresql/9.1.3/bin:$PATH
+PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 export PATH
 
