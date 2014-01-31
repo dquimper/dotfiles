@@ -1,1 +1,1 @@
-pv $*
+#!/usr/bin/env pv
